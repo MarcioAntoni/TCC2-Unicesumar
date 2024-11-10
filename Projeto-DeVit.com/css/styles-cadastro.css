@@ -1,0 +1,73 @@
+
+
+
+.opcoes{
+    background-color: #cedda5;
+    position: absolute;
+    top: 73%;
+    left: 40%;
+    transform: translate(-25%, -50%);
+    padding: 2.00rem;
+    border-radius: 1.618rem;
+    color: #0072ED;
+    display: flex;
+    flex-direction: column;
+
+}
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 25rem;
+    height: 1rem;
+    border-radius: 1.5rem;
+    display: flex;
+}
+button{
+    width: 100%;
+    border-radius: 1.618rem;
+    background: white;
+    transition: 0.1s ease-in-out;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 3%;
+    font-size: 1rem;
+}
+button:hover{
+    background: #0072ED;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+#google-icon:hover{
+    background: rgb(199, 199, 199);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+#facebook-icon:hover{
+    background: #3b5998;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+p{
+   align-items: center; 
+   text-align: center;
+}
+
+.apoio-text{
+    display: none;
+    font-size: .9rem;
+    color: #ff0000;
+}
+
+input.error {
+  border: solid 2px #992020;
+}
+
+input.correct {
+  border: solid 2px #1fb11f;
+}
+
+.visible {
+  display: block;
+}

@@ -1,0 +1,42 @@
+*{
+  scroll-snap-align: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container_post {
+  margin: 8px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+
+}
+.iten {
+  margin: 10px;
+  background-color: aqua;
+  display: flex;
+  align-items: flex-end;
+  
+}
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+     height: 100%;
+     width: 100%;
+     background-image: 
+         url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png"),
+         url("https://amymhaddad.s3.amazonaws.com/oriental-tiles.png");
+  }
+body {
+  @media screen and (max-width: 380px){
+    header{
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+
+
+    }
+    
+}
+}
