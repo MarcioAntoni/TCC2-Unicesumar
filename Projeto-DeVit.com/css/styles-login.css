@@ -1,23 +1,29 @@
 .imagem-fundo{
-    width: 100%;
-    height: 632px;
+    width: 50%;
+    height: 150px;
+    margin-left: 80px;
+    border-radius: 15px;
+
+
 
 }
+body{
+    background-color: #3a6791
+}
 .opcoes{
-    background-color: #cedda5;
-    opacity:1,5;
+    background-color: rgb(52, 18, 75);
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 43%;
     transform: translate(-25%, -50%);
-    padding: 6.18rem;
+    padding: 3rem;
     border-radius: 1.618rem;
-    color: #0072ED;
+    color:white;
     display: flex;
     flex-direction: column;
 }
 input {
-    padding: 20px;
+    padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
@@ -25,6 +31,9 @@ input {
     height: 2rem;
     border-radius: 1.618rem;
     display: flex;
+}
+a{
+    color: white;
 }
 button{
     outline: none;
